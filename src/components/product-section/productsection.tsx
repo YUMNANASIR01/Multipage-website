@@ -1,5 +1,4 @@
-
-import styles from './ProductSection.module.css'
+import styles from './productsection.module.css'
 import Image from 'next/image'
 import { IoStar } from "react-icons/io5";
 import { cardData } from "@/constant/card"
