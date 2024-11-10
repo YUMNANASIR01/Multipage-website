@@ -1,0 +1,19 @@
+.heading{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+.heading h1{
+    font-size: 2.625rem;
+    font-weight: 700;
+    color: brown;
+    margin-left: 400px;
+}
+
+.heading p{
+    font-size: 1.375rem;
+    font-weight: 600;
+    color: #473333;
+}

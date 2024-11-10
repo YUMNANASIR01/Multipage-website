@@ -1,0 +1,110 @@
+
+.nav{
+    background-color: #564D4D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.9375rem;
+    width: 74.75rem;
+    padding: 2.1875rem;
+    margin:  auto;
+    box-shadow: 1px 1px 4px rgb(40, 39, 0.25);
+    position: sticky;
+    top: 0;
+    color: #f4dbcd;
+    z-index: 10;
+    margin-right: 1rem;
+}
+.nav h1{
+    font-size: 2rem;
+   padding-left: 1.25rem;
+   font-weight: 700;
+   color: #F46505;
+}
+.nav ul{
+    width: 28.8125rem;
+    height: 1.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    
+}
+.nav ul li{
+    font-size: 22px;
+    color: #fb7f38;
+}
+.nav button{
+    width: 5.3125rem;
+    height: 2.5rem;
+    border: 2px solid #f4dbcd;
+    background: transparent;
+    font-size: 1.375rem;
+    border-radius: .5rem;
+    font-weight: 500;
+    color: #F59760;
+    margin-left: 14.375rem;
+}
+.menu{
+    display: none;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.linksdiv{
+    height: 100%;
+    width: 51.8125rem;
+    display: flex;
+    align-items: center;
+}
+@media (max-width:768px){
+    .linksdiv{
+        display: none;
+    }
+    .adjust{
+        background-color: white;
+        display: block;
+        position: absolute;
+        top: 47px;
+        left:0;
+        width: 100%;
+        margin-bottom: 50px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 1px 1px 4px rgba(0,0,0,0);
+        overflow: hidden;
+    }
+    .adjust ul{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding-top: 20px;
+        height: 100%;
+        padding-bottom: 30px;
+    }
+    .adjust ul li{
+        
+        font-size: 30px;
+    }
+    .adjust button{
+        width: 11%;
+        height: 20%;
+        margin-right: 240px;
+        margin-bottom: 100px;
+        font-size: 25px;
+        font-weight: 700;
+        border: 2px solid brown;
+        color: #fb7f38;
+        box-shadow: 2px 4px 3px 4px #564D4D;
+    }
+    .menu{
+        display: block;
+    }.nav h1{
+        margin-top: 20px;
+        margin-left: 20px ;
+        padding-top: 50px;
+        padding-bottom: 90px;
+       
+    }
+    
+}

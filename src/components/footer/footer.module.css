@@ -1,0 +1,118 @@
+.footer{
+    height: 373px;
+    width: 100%;
+    background-color: #CAAA97;
+    padding-top: 3.75rem;
+    padding: 3.75rem 7.8125rem 3.75rem 7.8125rem ;
+    display: flex;
+    margin-right: 90px;
+    margin-top: 2.5rem;
+  
+}
+.Fashion{
+    margin-right: 5.625rem;
+}
+
+.Fashion h1{
+    font-size: 3.7275rem;
+    font-weight: bolder;
+    color: #2F2A2A;
+    margin-bottom: 2.1875rem;
+}
+.Fashion p{
+    font-size: 1.5625rem;
+}
+.icons{
+    display: flex;
+    gap: 1.875rem;
+    margin-top: 1.6875rem;
+    font-size: 2rem;
+}
+.shop{
+    margin-right: 6.25rem;
+}
+.shop h1{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #57514e;
+  margin-bottom: 1.5rem;
+}
+.shop ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4375rem;
+}
+.shop ul li{
+    font-size: 1.25rem;
+    color: #4e4945;
+    font-weight: 600;
+}
+.COMPANY{
+    font-size: 1.5625rem;
+}
+.COMPANY ul li{
+    font-size: 1.25rem;
+    color: #4e4945;
+    font-weight: 600;
+     
+}
+.COMPANY ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4375rem;
+}
+.COMPANY h1, .submit{
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #57514e;
+    margin-bottom: 1.5rem;
+  }
+  .submit{
+    margin-right: 12rem;
+    padding-left: 3.125rem;
+     font-size: 1.5rem;
+     font-weight: 700;
+     margin-top: 4.375rem;
+  }
+  .input{
+    width: 12.5rem;
+    height: 2.6375rem;
+    padding: .625rem 0rem .8125rem .9375rem;
+    font-size: 1.125rem;
+    background-color: transparent;
+    border: .125rem solid black;
+    outline: none;
+    margin-top: 1.4375rem;
+  }
+  .inputDiv{
+    position: relative;
+  }
+.inputDiv button{
+    width: 5rem;
+    height: 2.625rem;
+    background-color: #6CA1BE;
+    color: #0B0B0B;
+    font-size: 1rem;
+    border: 1px solid black;
+    outline: none;
+   position: absolute;
+   margin-top: 1.4375rem;
+}
+@media(max-width:768px){
+.footer{
+    flex-direction: column;
+    height: auto;
+    gap: 50px;
+    margin-bottom: 90px;
+
+}.inputDiv {
+ display: inline-block;
+  position: absolute;
+  left: 28.5%;
+  
+}.submit h1{
+  position: relative;
+  right: 11%;
+  
+}
+}

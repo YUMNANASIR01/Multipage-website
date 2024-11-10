@@ -1,0 +1,109 @@
+.BestSelling{
+    width: 100%;
+    padding-top: 5.4375rem;
+    text-align: center;
+}
+.BestSelling h1{
+    font-size: 3.75rem;
+    font-weight: 600;
+    color: rgb(102, 64, 21);
+    margin-top: 3.125rem;
+}
+.BestSelling p{
+    font-size: 1.5rem;
+    color: gray;
+}
+.embla{
+    overflow: hidden;
+}
+.embla__container {
+    display: flex;
+  }
+  .embla__slide{
+    display: flex;
+    flex-direction: column;
+    margin-right: 3.4375rem;
+    margin-left: 3.125rem;
+  }
+  .imageDiv{
+    margin-top: 1.875rem;
+    width: 16.875rem;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 4.375rem;
+  }
+  .CardImage{
+    width: 40.625rem;
+    height: 45rem;
+    padding-bottom: 18.75rem;
+   &:hover{
+    transform: scale(1.02);
+   }
+  }
+  .cardtext{
+    width: 21.3125rem;
+    margin-top: 1.25rem;
+  }
+  .cardtext h1{
+    font-size: 1.0437rem;
+    margin-right: 2.6875rem;
+    padding-right: 1.25rem;
+    padding-bottom: .625rem;
+    color: black;
+    margin-top: -0.0625rem;
+  }
+  .cardtext pre{
+    font-size: 1.1687rem;
+    margin-right: 1.375rem;
+    color: black;
+     white-space: pre;
+  }
+  .priceDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2.1875rem;
+    margin-bottom: 10px;
+  }
+  .star{
+    display: inline-block;
+    color: rgb(244, 177, 8);
+    margin-top: -0.3125rem;
+    padding-left: .375rem;
+  }
+ .BestSelling button{
+  background: transparent;
+  border: 2px solid #4A3D3D;
+  width: 16.0625rem;
+  height: 3.125rem;
+  font-size: 1.5625rem;
+  margin-top: 3.125rem;
+  margin-bottom: 1.25rem;
+  color: #5B1919;
+  border-radius: .375rem;
+  font-weight: 600;
+  background-color: #6CA1BE;
+  padding-right: 1.25rem;
+  padding-bottom: .625rem;
+  padding-top: .1875rem;
+  
+  &:hover{
+    background-color: #4c6498;
+  }
+ }
+ /* .arrow{
+  margin-left: 12.5rem;
+  position: absolute;
+  margin-right: 1.875rem;
+  top: 266%;
+ } */
+ @media(max-width:768px){
+  .BestSelling{
+    margin-top: 1100px;
+  }.arrow{
+    position: absolute;
+    top: 422.5%;
+  }
+ }

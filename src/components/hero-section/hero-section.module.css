@@ -1,0 +1,58 @@
+.hero{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.heroleft{
+    width: 50%;
+    height: 100%;
+    border: transparent;
+    padding-top: 6.8125rem;
+}
+.heroleft h1{
+    font-size: 5rem;
+    color: #97481B;
+    margin-bottom: 2.5rem;
+    font-weight: 600;
+}
+.heroleft p{
+    font-size: 1.2rem;
+    color: #3d4b4b;
+ 
+}
+.heroleft button{
+    width: 12.5rem;
+    height: 3.4375rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-top: 2.125rem;
+    margin-left: 7.5rem;
+    border: .125rem solid black;
+    background-color: #555E5E;
+     color: white;
+    &:hover{
+        background-color: grey;
+        cursor: pointer;
+        color: burlywood;
+    }
+}
+@media (max-width:48rem){
+    .hero{
+        flex-direction: column;
+        position: absolute;
+        margin-left: 9.375rem;
+    }
+    .img{
+        position: relative;
+        margin-left: 12.5rem;
+    }.heroleft h1{
+       font-size: 3.125rem;
+       font-weight: 700;
+       display: flex;
+       margin-left: 6.25rem;
+    }.heroleft p{
+        margin-left: 6.25rem;
+    }.heroleft button{
+        margin-top: 20px;
+    }
+}
