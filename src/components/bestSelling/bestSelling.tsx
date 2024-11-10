@@ -4,14 +4,14 @@ import useEmblaCarousel from 'embla-carousel-react'
 import styles from './bestSelling.module.css'
 import { abhayaLibre } from '@/font';
 import { inter } from '@/font';
-import { FaLongArrowAltRight, FaStar } from 'react-icons/fa';
 import { cardData } from '@/constant/card';
 import { useEffect } from 'react';
 import Autoplay from 'embla-carousel-autoplay';
-import { text } from 'stream/consumers';
-import { input } from 'framer-motion/client';
-import { Input } from 'postcss';
+// import { text } from 'stream/consumers';
+// import { input } from 'framer-motion/client';
+// import { Input } from 'postcss';
 import Link from 'next/link';
+import { FaStar } from 'react-icons/fa';
 
 function BestSelling() {
     const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true},[Autoplay({delay:2000,stopOnInteraction:false, stopOnMouseEnter:true })])

@@ -93,12 +93,7 @@
     background-color: #4c6498;
   }
  }
- /* .arrow{
-  margin-left: 12.5rem;
-  position: absolute;
-  margin-right: 1.875rem;
-  top: 266%;
- } */
+ 
  @media(max-width:768px){
   .BestSelling{
     margin-top: 1100px;

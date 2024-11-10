@@ -4,7 +4,7 @@ import styles from "./ProductDetails.module.css"
 import Image from 'next/image';
 import { cardData } from '@/constant/card';
 function ProductDetails(props:{cardid:number}) {
-  let data = cardData.find((item)=>{return item.id == props.cardid})
+  const data = cardData.find((item)=>{return item.id == props.cardid})
   return (
     <div>
      <section className={styles.productdetails}>

@@ -1,8 +1,8 @@
 import styles from './footer.module.css'
 import { inter } from '@/font';
 import { inriaSerif } from '@/font';
-import { color } from 'framer-motion';
-import { style } from 'framer-motion/client';
+// import { color } from 'framer-motion';
+// import { style } from 'framer-motion/client';
 import { FaFacebookSquare, FaInstagram } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 function Footer() {
