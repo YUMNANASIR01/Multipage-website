@@ -36,7 +36,7 @@
         color: burlywood;
     }
 }
-@media (max-width:48rem){
+/* @media (max-width:48rem){
     .hero{
         flex-direction: column;
         position: absolute;
@@ -55,4 +55,4 @@
     }.heroleft button{
         margin-top: 20px;
     }
-}
+} */

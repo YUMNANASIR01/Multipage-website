@@ -39,7 +39,7 @@
 .righttextdiv p{
     color: rgb(24, 24, 28);
     font-size: 2.0625rem;
-    top: 43%;
+    top: 50%;
     font-weight: 600;
     position: absolute;
     margin-left: 9.375rem;
@@ -47,7 +47,7 @@
 .cartdiv{
      display: flex;
     margin-left: 5.625rem;
-    top: 53%;
+    top: 41%;
     position: absolute;
     font-size: 1.125rem;
     font-weight: 600;
@@ -77,18 +77,31 @@
     color: white;
 } 
 
-/* Media queries for smaller screens */
-@media (max-width: 1024px) {
-    .righttextdiv {
-        display: flex;
-        flex-direction: column;
-    }
-   .mypara{
-    width: 40%;
-   }
-   .cartdiv p{
-    gap: 30px
-    
-   }
-}
 
+
+@media (max-width: 768px) {
+    .cartdiv {
+        flex-direction: column; 
+        position: static; 
+        margin-left: 0; 
+        padding-left: 0; 
+        gap: 1rem; 
+        align-items: center; 
+    }
+    .cartdiv input {
+        width: 30%;
+        margin-left: 0; 
+    }
+  
+    .cartdiv button {
+        width: 30%; 
+    }
+    .mypara{
+        display: flex;
+        width: 400px;
+        padding-top: 30px;
+        margin-bottom: 120px;
+    }
+
+    
+}
