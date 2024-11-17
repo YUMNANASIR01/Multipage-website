@@ -18,9 +18,9 @@ function ProductDetails(props:{cardid:number}) {
             < input  type="number" value={1} style={{fontSize:"19px"}}/>
             <button>&nbsp;&nbsp;ADD TO CART</button>
         </div>
-        <p style={{marginTop: "90px",fontSize:"30px",display:"flex"}}>Products Details</p>
+        <p  style={{marginTop: "80px",fontSize:"30px",display:"flex"}}>Products Details</p>
        <br />
-        <p className={styles.mypara} style={{marginTop: "128px",fontSize:"15px",display:"flex"}}>
+        <p className={styles.mypara} style={{marginTop: "110px",fontSize:"15px",display:"flex"}}>
         <br />
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br />
           In deserunt magni quaerat voluptatum soluta, atque ullam   <br/>
@@ -28,8 +28,10 @@ function ProductDetails(props:{cardid:number}) {
            Eaque vitae ab sed magnam distinctio?  <br/>
            Lorem ipsum, dolor sit amet consectetur adipisicing elit.   <br/>
           In deserunt magni quaerat voluptatum soluta, atque ullam  <br/> 
-          quod blanditiis eligendi, natus, laborum odit molestiae aperiam.  <br/>
+          quod blanditiis eligendi, natus, laborum odit molestiae aperiam.  <br/> <br/>
         </p>
+        <br/>
+        <br/>
      </div>
      <br/>
         <br/>

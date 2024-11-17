@@ -83,10 +83,11 @@
     .cartdiv {
         flex-direction: column; 
         position: static; 
-        margin-left: 0; 
+        margin-left: 60px; 
         padding-left: 0; 
         gap: 1rem; 
         align-items: center; 
+       margin-top: 20px;
     }
     .cartdiv input {
         width: 30%;
@@ -99,9 +100,15 @@
     .mypara{
         display: flex;
         width: 400px;
-        padding-top: 30px;
-        margin-bottom: 120px;
+        padding-top: 80px;
+        margin-bottom: 200px;
+        margin-top: 80px;
+      
     }
-
-    
+.righttextdiv p{
+    margin-top: 30px;
 }
+    
+} 
+
+
