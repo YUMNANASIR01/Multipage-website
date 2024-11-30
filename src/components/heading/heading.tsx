@@ -8,7 +8,9 @@ function Heading() {
       <h1>OUR <span>PRODUCTS</span></h1>
       <div className={styles.underline}></div>
       <p>
-        &quot;Our products combine innovation with premium quality, designed to make your life easier and better. We provide unique and effective solutions tailored to meet your everyday needs, ensuring a pleasant experience each day. Our products are not only reliable but also continue to meet the standards of performance and innovation over time.&quot;
+       &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &quot;Our products combine innovation with premium quality, designed to make your life easier and better. <br />
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We provide unique solutions tailored to meet your everyday needs, ensuring a pleasant experience each day. <br />
+       &nbsp;&nbsp;&nbsp;&nbsp; Our products are not only reliable but also continue to meet the standards of performance and innovation over time.&quot;
       </p>
     </div>
   );

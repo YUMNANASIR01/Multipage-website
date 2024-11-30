@@ -1,0 +1,138 @@
+.services {
+  padding: 60px;
+  background: linear-gradient(135deg, #f5f5f5, #e9e9e9);
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.heading {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.heading:hover {
+  cursor: pointer;
+  color: #fb7f38;
+  transform: scale(1.05);
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #57514e;
+  margin-bottom: 50px;
+  line-height: 1.6;
+  transition: color 0.3s ease;
+}
+
+.description:hover {
+  color: #333333;
+}
+
+.servicesList {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.serviceCard {
+  background-color: #ffffff;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  position: relative;
+  border-radius: 12px;
+  padding: 25px;
+  max-width: 300px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+  overflow: hidden;
+}
+
+.serviceCard:before {
+  cursor: pointer;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #caa189, #d6ac95);
+  z-index: -1;
+  transform: scale(0);
+  transition: transform 0.3s ease;
+}
+
+.serviceCard:hover:before {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.serviceCard:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border: 2px solid #785d4d;
+}
+
+.serviceCard h2 {
+  font-size: 1.6rem;
+  color: #2f2a2a;
+  margin-bottom: 15px;
+}
+
+.serviceCard p {
+  font-size: 1rem;
+  color: #4e4945;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.serviceLink {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #fb7f38;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.serviceLink:hover {
+  background-color: #e56928;
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .servicesList {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .serviceCard {
+    max-width: 100%;
+  }
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+  

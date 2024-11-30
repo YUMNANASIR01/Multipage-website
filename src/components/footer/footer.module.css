@@ -1,57 +1,58 @@
 .footer{
-    height: 373px;
+    height: 23.3125rem;
     width: 100%;
     background-color: #CAAA97;
-    padding-top: 3.75rem;
-    padding: 3.75rem 7.8125rem 3.75rem 7.8125rem ;
+    padding-top: 60px;
+    padding: 60px 125px 60px 125px ;
     display: flex;
-    margin-right: 90px;
-    margin-top: 2.5rem;
-  
+    margin-right: 5.625rem;
+    margin-top: 40px;
+    padding-bottom: 50px; 
 }
 .Fashion{
-    margin-right: 5.625rem;
+    margin-right: 90px;
 }
 
 .Fashion h1{
-    font-size: 3.7275rem;
+    font-size: 59.64px;
     font-weight: bolder;
     color: #2F2A2A;
-    margin-bottom: 2.1875rem;
+    margin-bottom: 35px;
 }
 .Fashion p{
-    font-size: 1.5625rem;
+    font-size: 25px;
 }
 .icons{
     display: flex;
-    gap: 1.875rem;
-    margin-top: 1.6875rem;
-    font-size: 2rem;
+    gap: 30px;
+    margin-top: 27px;
+    font-size: 32px;
 }
 .shop{
-    margin-right: 6.25rem;
+    margin-right: 100px;
 }
 .shop h1{
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: 700;
   color: #57514e;
-  margin-bottom: 1.5rem;
+  margin-bottom: 24px;
 }
 .shop ul{
     display: flex;
     flex-direction: column;
-    gap: 1.4375rem;
+    gap: 23px;
 }
 .shop ul li{
-    font-size: 1.25rem;
+    font-size: 20px;
     color: #4e4945;
     font-weight: 600;
 }
 .COMPANY{
-    font-size: 1.5625rem;
+    font-size: 25px;
+    margin-right: 100px;
 }
 .COMPANY ul li{
-    font-size: 1.25rem;
+    font-size: 20px;
     color: #4e4945;
     font-weight: 600;
      
@@ -59,51 +60,52 @@
 .COMPANY ul{
     display: flex;
     flex-direction: column;
-    gap: 1.4375rem;
+    gap: 23px;
 }
 .COMPANY h1, .submit{
-    font-size: 1.875rem;
+    font-size: 30px;
     font-weight: 700;
     color: #57514e;
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
   }
   .submit{
-    margin-right: 12rem;
-    padding-left: 3.125rem;
-     font-size: 1.5rem;
+    margin-right: 100px;
+    padding-left: 0px;
+     font-size: 24px;
      font-weight: 700;
-     margin-top: 4.375rem;
+     margin-top: 70px;
   }
   .input{
-    width: 12.5rem;
-    height: 2.6375rem;
-    padding: .625rem 0rem .8125rem .9375rem;
-    font-size: 1.125rem;
+    width: 200px;
+    height: 42.2px;
+    padding: 10px 0px 13px 15px;
+    font-size: 18px;
     background-color: transparent;
-    border: .125rem solid black;
+    border: 2px solid black;
     outline: none;
-    margin-top: 1.4375rem;
+    margin-top: 23px;
+    
   }
   .inputDiv{
     position: relative;
   }
 .inputDiv button{
-    width: 5rem;
-    height: 2.625rem;
+    width: 80px;
+    height: 42px;
     background-color: #6CA1BE;
     color: #0B0B0B;
-    font-size: 1rem;
-    border: 1px solid black;
+    font-size: 16px;
+    border: .0625rem solid black;
     outline: none;
    position: absolute;
-   margin-top: 1.4375rem;
+   margin-top: 23px;
 }
-@media(max-width:768px){
+@media(max-width:48rem){
 .footer{
     flex-direction: column;
     height: auto;
-    gap: 50px;
-    margin-bottom: 90px;
+    gap: 3.125rem;
+    margin-bottom: 5.625rem;
 
 }.inputDiv {
  display: inline-block;

@@ -20,7 +20,7 @@ function ProductDetails(props:{cardid:number}) {
         </div>
         <p style={{marginTop: "150px",fontSize:"30px"}}>Products Details</p>
        <br />
-        <p className={styles.mypara} style={{marginTop: "213px",fontSize:"15px",display:"flex"}}>Lorem ipsum, dolor sit amet consectetur suscipit  nisi a unde adipisicing elit.<br/> Itaque nisi nemo voluptates, rem veritatis  nisi est obcaecati voluptatibus in?<br />Lorem ipsum dolor sit amet in autem minus,a est rem unde ut iste qui sunt?<br />
+        <p className={styles.mypara} style={{marginTop: "213px",fontSize:"15px",display:"flex"}}> Lorem ipsum, dolor sit amet consectetur suscipit  nisi a unde adipisicing elit.<br/> Itaque nisi nemo voluptates, rem veritatis  nisi est obcaecati voluptatibus in?<br />Lorem ipsum dolor sit amet in autem minus,a est rem unde ut iste qui sunt?<br />
         Itaque nisi nemo voluptates, rem veritatis  nisi est obcaecati voluptatibus in?<br />Lorem ipsum dolor sit amet in autem minus,a est rem unde ut iste qui sunt?<br />Lorem ipsum, dolor sit amet consectetur suscipit  nisi a unde adipisicing elit.<br/> Itaque nisi nemo voluptates, rem veritatis  nisi est obcaecati voluptatibus in?<br />Lorem ipsum dolor sit amet in autem minus,a est rem unde ut iste qui sunt?<br />
         </p>
      </div>

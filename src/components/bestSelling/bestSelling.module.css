@@ -22,8 +22,7 @@
   .embla__slide{
     display: flex;
     flex-direction: column;
-    margin-right: 3.4375rem;
-    margin-left: 3.125rem;
+    margin-left: 1.875rem;
   }
   .imageDiv{
     margin-top: 1.875rem;

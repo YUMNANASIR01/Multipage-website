@@ -29,8 +29,8 @@ function Navbar() {
       <ul>
         <li><Link href='/' style={{color:"#fb7f38",fontWeight:"700"}}>HOME</Link></li>
         <li><Link href='/shop'>SHOP</Link></li>
-        <li><Link href='/'>FEATURES</Link></li>
-        <li><Link href='/'>CONTACT</Link></li>
+        <li><Link href='/services'>SERVICES</Link></li>
+        <li><Link href='/contact'>CONTACT</Link></li>
       </ul>
       <button>LOGIN</button>
       </motion.div>
@@ -41,8 +41,8 @@ function Navbar() {
       <ul>
         <li><Link href='/' style={{color:"#fb7f38",fontWeight:"700"}}>HOME</Link></li>
         <li><Link href='/shop'>SHOP</Link></li>
-        <li><Link href='/'>FEATURES</Link></li>
-        <li><Link href='/'>CONTACT</Link></li>
+        <li><Link href='/services'>SERVICES</Link></li>
+        <li><Link href='/contact'>CONTACT</Link></li>
       </ul>
       <button>LOGIN</button>
       

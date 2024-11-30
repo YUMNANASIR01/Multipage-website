@@ -47,8 +47,8 @@ function Footer() {
         </div>
       </div>
       </section>
-      <br />
-      <br />
+ 
+     
     </div>
    
   )
