@@ -39,7 +39,7 @@
 .righttextdiv p{
     color: rgb(24, 24, 28);
     font-size: 2.0625rem;
-    top: 43%;
+    top: 50%;
     font-weight: 600;
     position: absolute;
     margin-left: 9.375rem;
@@ -47,7 +47,7 @@
 .cartdiv{
      display: flex;
     margin-left: 5.625rem;
-    top: 53%;
+    top: 41%;
     position: absolute;
     font-size: 1.125rem;
     font-weight: 600;
@@ -78,6 +78,7 @@
 } 
 
 
+<<<<<<< HEAD
 /* Media queries for smaller screens */
 @media (max-width: 1024px) {
     .righttextdiv {
@@ -92,4 +93,39 @@
     
    }
 }
+=======
+
+@media (max-width: 768px) {
+    .cartdiv {
+        flex-direction: column; 
+        position: static; 
+        margin-left: 60px; 
+        padding-left: 0; 
+        gap: 1rem; 
+        align-items: center; 
+       margin-top: 20px;
+    }
+    .cartdiv input {
+        width: 30%;
+        margin-left: 0; 
+    }
+  
+    .cartdiv button {
+        width: 30%; 
+    }
+    .mypara{
+        display: flex;
+        width: 400px;
+        padding-top: 80px;
+        margin-bottom: 200px;
+        margin-top: 80px;
+      
+    }
+.righttextdiv p{
+    margin-top: 30px;
+}
+    
+} 
+
+>>>>>>> 2f9e4541bd9ce285023030560c482c45b784c0cb
 
